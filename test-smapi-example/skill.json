@@ -1,0 +1,122 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "J.P. Morgan’s Michael Liersch harnesses insights from behavioral finance.",
+          "examplePhrases": [
+            "Alexa, open my next move",
+            "Alexa, ask my next move for episode 4",
+            ""
+          ],
+          "keywords": [
+            "jp",
+            "morgan",
+            "jpmorgan",
+            "chase",
+            "JPMC",
+            "Financial",
+            "planning",
+            "Wealth",
+            "Management",
+            "Private",
+            "Banking",
+            "Finance",
+            "Financial",
+            "advice",
+            "personal",
+            "finance",
+            "personal",
+            "banking",
+            "managing",
+            "wealth",
+            "Money",
+            "wealth",
+            "planning",
+            "wealth",
+            "management",
+            "services",
+            "Michael",
+            "Liersch"
+          ],
+          "name": "My Next Move",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/d96a/75517b6b985a46c6884fcf1a6e75ea88/APP_ICON?versionId=I9_34SNKwKmaT3cSAveLt_vpK4SO09KG&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1541005440&Signature=msQANuN4%2FvE9G7iiUIg60XLzxuQ%3D",
+          "description": "People have complicated feelings about money. But a few simple principles can guide us toward financial health. In a weekly podcast, My Next Move, J.P. Morgan’s Michael Liersch harnesses insights from behavioral finance to help you master the human issues at the intersection of money and the mind. Covering lifestyle and family, emotions and values, business decisions and goal-setting, he explains where to focus and what to do to move forward to reach your financial goals.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a070/0868f1fb5cae4e03b84724bede084b3d/APP_ICON_LARGE?versionId=8Z5TIdiOlz6P6WuGVqRap1PoluilzG67&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1541005440&Signature=LRXlu8ycwV%2FMvqbliWe3lSd2WHY%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "test",
+      "category": "BUSINESS_AND_FINANCE",
+      "distributionCountries": []
+    },
+	"apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "https://97c47957.ngrok.io/voice/alexa/mynextmove",
+          "sslCertificateType": "Wildcard"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+		"regions": {
+          "NA": {
+            "endpoint": {
+              "sslCertificateType": "Wildcard",
+              "uri": "https://97c47957.ngrok.io/voice/alexa/mynextmove"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::devices:all:notifications:write"
+      }
+    ],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://am.jpmorgan.com/private-bank/public/gl/en/voice-terms-of-use",
+          "privacyPolicyUrl": "https://am.jpmorgan.com/private-bank/public/gl/en/voice-privacy-policy"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    },
+	"events": {
+      "endpoint": {
+        "uri": "https://97c47957.ngrok.io/voice/alexa/mynextmove",
+        "sslCertificateType": "Wildcard"
+      },
+      "subscriptions": [
+        {
+          "eventName": "SKILL_PERMISSION_ACCEPTED"
+        },
+        {
+          "eventName": "SKILL_PERMISSION_CHANGED"
+        },
+        {
+          "eventName": "SKILL_ENABLED"
+        },
+        {
+          "eventName": "SKILL_DISABLED"
+        }
+      ],
+	  "regions": {
+        "NA": {
+          "endpoint": {
+            "uri": "https://97c47957.ngrok.io/voice/alexa/mynextmove",
+			"sslCertificateType": "Wildcard"
+          }
+        }
+      }
+    }
+  }
+}
