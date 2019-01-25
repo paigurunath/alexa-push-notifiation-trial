@@ -27,7 +27,7 @@ mySmapiClient.tokens.refresh({
 .then(data => console.log(JSON.stringify(data)))
 .catch(error => {
 	console.log('---------------------------------------------------------------------');
-	console.log(error)
+	//console.log(error)
 });
 
 //.then(() => {
